@@ -25,6 +25,8 @@
       <itemPath>../src/rs232.c</itemPath>
       <itemPath>pid_TIPO_II_Q3_12.s</itemPath>
       <itemPath>isr_asm_Q3_12.s</itemPath>
+      <itemPath>D:/D/GARRANTZITSUENA/ESKOLAK/MASTER_EP/PRÁCTICAS/FLY-BACK/FBDig/Fb_dig_soft/DCDC_PTAIL_PC_18F2450_DSP/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_3/inc/rs232_params_Q3_12.c</itemPath>
+      <itemPath>D:/D/GARRANTZITSUENA/ESKOLAK/MASTER_EP/PRÁCTICAS/FLY-BACK/FBDig/Fb_dig_soft/DCDC_PTAIL_PC_18F2450_DSP/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_3/inc/init_Q3_12.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -79,6 +81,8 @@
         <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
       </makeCustomizationType>
+      <item path="../src/init.c" ex="true" overriding="false">
+      </item>
       <item path="../src/isr_asm.s" ex="true" overriding="false">
         <C30>
         </C30>
@@ -98,6 +102,8 @@
         </C30-LD>
         <C30Global>
         </C30Global>
+      </item>
+      <item path="../src/rs232.c" ex="true" overriding="false">
       </item>
       <C30>
         <property key="code-model" value="default"/>

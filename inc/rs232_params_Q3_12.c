@@ -1,37 +1,80 @@
 #include <p33FJ16GS502.h>
 #include "uart.h"
-//#include "pps.h"
+#include "dsp.h"
+
+extern tPID	BuckVoltagePID;
+int cont_RX_bits=0,cont_TX_bits=0,cont_abcCoef=0,outputVoltage, referenciaVoltageL;
+int parametroL;
+char outputVoltageH,OnOffFuente=0;
+extern unsigned int Buck2ReferenceNew;
 
 enum  {		NO_ORDEN		= 0X00,
 			ON_BUCK2		= 0XA0, 	
 			OFF_BUCK2		= 0XA1,
 			REF_BUCK2   	= 0XA2,
-			TENSION_SALIDA_BUCK2	=0XA3
+			TENSION_SALIDA_BUCK2	= 0XA3
             
 }ordenUSB;
+ 
 
-int cont_RX_bits=0,cont_TX_bits=0,outputVoltage, referenciaVoltageL;
-char outputVoltageH,OnOffFuente;
-extern unsigned int Buck2ReferenceNew;
 void __attribute__ ((interrupt, no_auto_psv)) _U1RXInterrupt(void) {
+
 
 //int outputVoltage;
 char outputVoltageL,limpiarRevReg;
 
 if (ordenUSB==NO_ORDEN)
-ordenUSB = U1RXREG;
+ordenUSB = U1RXREG; //identifica el tipo de orden. Se mantiene hasta el final de la gestion
 
 switch (ordenUSB)
 {
 case ON_BUCK2:
-PTCONbits.PTEN = 1;/* Enable the PWM */
-OnOffFuente=1;
-ordenUSB=NO_ORDEN;	
+   
+    if(cont_TX_bits==0)
+    {
+        cont_abcCoef=0;
+        cont_TX_bits=1;
+        U1TXREG=ON_BUCK2; //le pide al s 18f2450 el byte L del 1er parámetro
+    }
+    else
+    {
+        if( cont_TX_bits<=10)
+        {
+        
+            if((cont_TX_bits==1)||(cont_TX_bits==3)||(cont_TX_bits==5)||(cont_TX_bits==7)||(cont_TX_bits==9))
+            {
+                parametroL=U1RXREG;
+               
+            }
+            else
+            {
+            
+                BuckVoltagePID.abcCoefficients[cont_abcCoef]=U1RXREG;
+                BuckVoltagePID.abcCoefficients[cont_abcCoef]=BuckVoltagePID.abcCoefficients[cont_abcCoef]<<8;
+                BuckVoltagePID.abcCoefficients[cont_abcCoef]=BuckVoltagePID.abcCoefficients[cont_abcCoef]|parametroL;
+                cont_abcCoef++;
+            }
+            cont_TX_bits++;
+            U1TXREG=ON_BUCK2;//orden para que el 18F mande el byte L de la referencia
+// se aclara que podrá mandar cualquier dato, porque el tipo de orden se gestiona
+// en el lado del 18f. Solo interesa que la EUSART provoque interrupción
+        }
+        else
+            {
+                ordenUSB=NO_ORDEN; //cuando se acaban de recibir todos los parámetros
+                cont_TX_bits=0;
+                cont_abcCoef=0;
+                PTCONbits.PTEN = 1;/* Enable the PWM */
+            }
+    }
+       
+
 break;
+
 case OFF_BUCK2:
 PTCONbits.PTEN = 0;	/* Disaable the PWM */
 ordenUSB=NO_ORDEN;
-OnOffFuente=0;						
+//OnOffFuente=0;						
 break;
 
 case REF_BUCK2:
@@ -39,7 +82,7 @@ case REF_BUCK2:
 if (cont_RX_bits==0)
 { //..primer byte recibido
 cont_RX_bits=1;
-IFS0bits.U1RXIF = 0; //para poder recibir de nuevo la interrupción	
+
 U1TXREG=REF_BUCK2; //orden para que el 18F mande el byte L de la referencia
 // se aclara que podrá mandar cualquier dato, porque el tipo de orden se gestiona
 // en el lado del 18f. Solo interesa que la EUSART provoque interrupción 
@@ -197,3 +240,4 @@ U1STAbits.UTXEN = 1;  //estas 2 instrucciones en este orden, si no, no se habili
 
 
 }
+

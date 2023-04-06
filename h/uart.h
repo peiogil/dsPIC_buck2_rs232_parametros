@@ -193,6 +193,7 @@ unsigned int ReadUART1(void) __attribute__ ((section (".libperi")));
 
 char BusyUART1(void) __attribute__ ((section (".libperi")));
 
+
 #ifdef _U2RXIF
 
 /* Macros to  Enable/Disable interrupts and set Interrupt priority of UART2 */

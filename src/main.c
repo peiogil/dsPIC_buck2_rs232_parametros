@@ -89,7 +89,7 @@ int main(void)
     CurrentVoltageMeasurements();			/* ADC Setup for bucks and boost */
 	Buck2VoltageLoop();						/* Initialize Buck2 PID */
 	InitUART1();
-    Buck2RefVoltValPotIntr();
+    Buck2RefVoltValInit();
 
     ADCONbits.ADON = 1;						/* Enable the ADC */
 //   PTCONbits.PTEN = 1;						/* Enable the PWM */

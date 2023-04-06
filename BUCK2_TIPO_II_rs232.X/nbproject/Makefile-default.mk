@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=../src/init.c ../src/isr.c ../src/main.c ../src/rs232.c pid_TIPO_II_Q3_12.s isr_asm_Q3_12.s
+SOURCEFILES_QUOTED_IF_SPACED=../src/isr.c ../src/main.c pid_TIPO_II_Q3_12.s isr_asm_Q3_12.s D:/D/GARRANTZITSUENA/ESKOLAK/MASTER_EP/PRÁCTICAS/FLY-BACK/FBDig/Fb_dig_soft/DCDC_PTAIL_PC_18F2450_DSP/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_3/inc/rs232_params_Q3_12.c D:/D/GARRANTZITSUENA/ESKOLAK/MASTER_EP/PRÁCTICAS/FLY-BACK/FBDig/Fb_dig_soft/DCDC_PTAIL_PC_18F2450_DSP/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_3/inc/init_Q3_12.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1360937237/init.o ${OBJECTDIR}/_ext/1360937237/isr.o ${OBJECTDIR}/_ext/1360937237/main.o ${OBJECTDIR}/_ext/1360937237/rs232.o ${OBJECTDIR}/pid_TIPO_II_Q3_12.o ${OBJECTDIR}/isr_asm_Q3_12.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1360937237/init.o.d ${OBJECTDIR}/_ext/1360937237/isr.o.d ${OBJECTDIR}/_ext/1360937237/main.o.d ${OBJECTDIR}/_ext/1360937237/rs232.o.d ${OBJECTDIR}/pid_TIPO_II_Q3_12.o.d ${OBJECTDIR}/isr_asm_Q3_12.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1360937237/isr.o ${OBJECTDIR}/_ext/1360937237/main.o ${OBJECTDIR}/pid_TIPO_II_Q3_12.o ${OBJECTDIR}/isr_asm_Q3_12.o ${OBJECTDIR}/_ext/592891521/rs232_params_Q3_12.o ${OBJECTDIR}/_ext/592891521/init_Q3_12.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1360937237/isr.o.d ${OBJECTDIR}/_ext/1360937237/main.o.d ${OBJECTDIR}/pid_TIPO_II_Q3_12.o.d ${OBJECTDIR}/isr_asm_Q3_12.o.d ${OBJECTDIR}/_ext/592891521/rs232_params_Q3_12.o.d ${OBJECTDIR}/_ext/592891521/init_Q3_12.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/_ext/1360937237/init.o ${OBJECTDIR}/_ext/1360937237/isr.o ${OBJECTDIR}/_ext/1360937237/main.o ${OBJECTDIR}/_ext/1360937237/rs232.o ${OBJECTDIR}/pid_TIPO_II_Q3_12.o ${OBJECTDIR}/isr_asm_Q3_12.o
+OBJECTFILES=${OBJECTDIR}/_ext/1360937237/isr.o ${OBJECTDIR}/_ext/1360937237/main.o ${OBJECTDIR}/pid_TIPO_II_Q3_12.o ${OBJECTDIR}/isr_asm_Q3_12.o ${OBJECTDIR}/_ext/592891521/rs232_params_Q3_12.o ${OBJECTDIR}/_ext/592891521/init_Q3_12.o
 
 # Source Files
-SOURCEFILES=../src/init.c ../src/isr.c ../src/main.c ../src/rs232.c pid_TIPO_II_Q3_12.s isr_asm_Q3_12.s
+SOURCEFILES=../src/isr.c ../src/main.c pid_TIPO_II_Q3_12.s isr_asm_Q3_12.s D:/D/GARRANTZITSUENA/ESKOLAK/MASTER_EP/PRÁCTICAS/FLY-BACK/FBDig/Fb_dig_soft/DCDC_PTAIL_PC_18F2450_DSP/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_3/inc/rs232_params_Q3_12.c D:/D/GARRANTZITSUENA/ESKOLAK/MASTER_EP/PRÁCTICAS/FLY-BACK/FBDig/Fb_dig_soft/DCDC_PTAIL_PC_18F2450_DSP/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_3/inc/init_Q3_12.c
 
 
 CFLAGS=
@@ -134,13 +134,6 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/_ext/1360937237/init.o: ../src/init.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/init.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/init.o.ok ${OBJECTDIR}/_ext/1360937237/init.o.err 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/init.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937237/init.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1 -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I"../h" -I"C:/Archivos de programa/Microchip/MPLAB C30/include" -I"C:/Documents and Settings/pgil/Mis documentos/Hezkuntza/DSP_18F/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_2/h" -I"C:/Documents and Settings/pgil/Mis documentos/Hezkuntza/DSP_18F/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_2/inc" -I"." -MMD -MF "${OBJECTDIR}/_ext/1360937237/init.o.d" -o ${OBJECTDIR}/_ext/1360937237/init.o ../src/init.c    
-	
 ${OBJECTDIR}/_ext/1360937237/isr.o: ../src/isr.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/isr.o.d 
@@ -155,21 +148,21 @@ ${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  nbproject/Makefile-${CND_CON
 	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o 
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937237/main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1 -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I"../h" -I"C:/Archivos de programa/Microchip/MPLAB C30/include" -I"C:/Documents and Settings/pgil/Mis documentos/Hezkuntza/DSP_18F/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_2/h" -I"C:/Documents and Settings/pgil/Mis documentos/Hezkuntza/DSP_18F/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_2/inc" -I"." -MMD -MF "${OBJECTDIR}/_ext/1360937237/main.o.d" -o ${OBJECTDIR}/_ext/1360937237/main.o ../src/main.c    
 	
-${OBJECTDIR}/_ext/1360937237/rs232.o: ../src/rs232.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/rs232.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/rs232.o.ok ${OBJECTDIR}/_ext/1360937237/rs232.o.err 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/rs232.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937237/rs232.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1 -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I"../h" -I"C:/Archivos de programa/Microchip/MPLAB C30/include" -I"C:/Documents and Settings/pgil/Mis documentos/Hezkuntza/DSP_18F/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_2/h" -I"C:/Documents and Settings/pgil/Mis documentos/Hezkuntza/DSP_18F/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_2/inc" -I"." -MMD -MF "${OBJECTDIR}/_ext/1360937237/rs232.o.d" -o ${OBJECTDIR}/_ext/1360937237/rs232.o ../src/rs232.c    
+${OBJECTDIR}/_ext/592891521/rs232_params_Q3_12.o: D:/D/GARRANTZITSUENA/ESKOLAK/MASTER_EP/PRÁCTICAS/FLY-BACK/FBDig/Fb_dig_soft/DCDC_PTAIL_PC_18F2450_DSP/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_3/inc/rs232_params_Q3_12.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/592891521" 
+	@${RM} ${OBJECTDIR}/_ext/592891521/rs232_params_Q3_12.o.d 
+	@${RM} ${OBJECTDIR}/_ext/592891521/rs232_params_Q3_12.o.ok ${OBJECTDIR}/_ext/592891521/rs232_params_Q3_12.o.err 
+	@${RM} ${OBJECTDIR}/_ext/592891521/rs232_params_Q3_12.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/592891521/rs232_params_Q3_12.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1 -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I"../h" -I"C:/Archivos de programa/Microchip/MPLAB C30/include" -I"C:/Documents and Settings/pgil/Mis documentos/Hezkuntza/DSP_18F/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_2/h" -I"C:/Documents and Settings/pgil/Mis documentos/Hezkuntza/DSP_18F/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_2/inc" -I"." -MMD -MF "${OBJECTDIR}/_ext/592891521/rs232_params_Q3_12.o.d" -o ${OBJECTDIR}/_ext/592891521/rs232_params_Q3_12.o D:/D/GARRANTZITSUENA/ESKOLAK/MASTER_EP/PRÁCTICAS/FLY-BACK/FBDig/Fb_dig_soft/DCDC_PTAIL_PC_18F2450_DSP/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_3/inc/rs232_params_Q3_12.c    
+	
+${OBJECTDIR}/_ext/592891521/init_Q3_12.o: D:/D/GARRANTZITSUENA/ESKOLAK/MASTER_EP/PRÁCTICAS/FLY-BACK/FBDig/Fb_dig_soft/DCDC_PTAIL_PC_18F2450_DSP/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_3/inc/init_Q3_12.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/592891521" 
+	@${RM} ${OBJECTDIR}/_ext/592891521/init_Q3_12.o.d 
+	@${RM} ${OBJECTDIR}/_ext/592891521/init_Q3_12.o.ok ${OBJECTDIR}/_ext/592891521/init_Q3_12.o.err 
+	@${RM} ${OBJECTDIR}/_ext/592891521/init_Q3_12.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/592891521/init_Q3_12.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1 -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I"../h" -I"C:/Archivos de programa/Microchip/MPLAB C30/include" -I"C:/Documents and Settings/pgil/Mis documentos/Hezkuntza/DSP_18F/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_2/h" -I"C:/Documents and Settings/pgil/Mis documentos/Hezkuntza/DSP_18F/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_2/inc" -I"." -MMD -MF "${OBJECTDIR}/_ext/592891521/init_Q3_12.o.d" -o ${OBJECTDIR}/_ext/592891521/init_Q3_12.o D:/D/GARRANTZITSUENA/ESKOLAK/MASTER_EP/PRÁCTICAS/FLY-BACK/FBDig/Fb_dig_soft/DCDC_PTAIL_PC_18F2450_DSP/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_3/inc/init_Q3_12.c    
 	
 else
-${OBJECTDIR}/_ext/1360937237/init.o: ../src/init.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/init.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/init.o.ok ${OBJECTDIR}/_ext/1360937237/init.o.err 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/init.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937237/init.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I"../h" -I"C:/Archivos de programa/Microchip/MPLAB C30/include" -I"C:/Documents and Settings/pgil/Mis documentos/Hezkuntza/DSP_18F/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_2/h" -I"C:/Documents and Settings/pgil/Mis documentos/Hezkuntza/DSP_18F/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_2/inc" -I"." -MMD -MF "${OBJECTDIR}/_ext/1360937237/init.o.d" -o ${OBJECTDIR}/_ext/1360937237/init.o ../src/init.c    
-	
 ${OBJECTDIR}/_ext/1360937237/isr.o: ../src/isr.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/isr.o.d 
@@ -184,12 +177,19 @@ ${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  nbproject/Makefile-${CND_CON
 	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o 
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937237/main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I"../h" -I"C:/Archivos de programa/Microchip/MPLAB C30/include" -I"C:/Documents and Settings/pgil/Mis documentos/Hezkuntza/DSP_18F/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_2/h" -I"C:/Documents and Settings/pgil/Mis documentos/Hezkuntza/DSP_18F/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_2/inc" -I"." -MMD -MF "${OBJECTDIR}/_ext/1360937237/main.o.d" -o ${OBJECTDIR}/_ext/1360937237/main.o ../src/main.c    
 	
-${OBJECTDIR}/_ext/1360937237/rs232.o: ../src/rs232.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/rs232.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/rs232.o.ok ${OBJECTDIR}/_ext/1360937237/rs232.o.err 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/rs232.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1360937237/rs232.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I"../h" -I"C:/Archivos de programa/Microchip/MPLAB C30/include" -I"C:/Documents and Settings/pgil/Mis documentos/Hezkuntza/DSP_18F/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_2/h" -I"C:/Documents and Settings/pgil/Mis documentos/Hezkuntza/DSP_18F/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_2/inc" -I"." -MMD -MF "${OBJECTDIR}/_ext/1360937237/rs232.o.d" -o ${OBJECTDIR}/_ext/1360937237/rs232.o ../src/rs232.c    
+${OBJECTDIR}/_ext/592891521/rs232_params_Q3_12.o: D:/D/GARRANTZITSUENA/ESKOLAK/MASTER_EP/PRÁCTICAS/FLY-BACK/FBDig/Fb_dig_soft/DCDC_PTAIL_PC_18F2450_DSP/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_3/inc/rs232_params_Q3_12.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/592891521" 
+	@${RM} ${OBJECTDIR}/_ext/592891521/rs232_params_Q3_12.o.d 
+	@${RM} ${OBJECTDIR}/_ext/592891521/rs232_params_Q3_12.o.ok ${OBJECTDIR}/_ext/592891521/rs232_params_Q3_12.o.err 
+	@${RM} ${OBJECTDIR}/_ext/592891521/rs232_params_Q3_12.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/592891521/rs232_params_Q3_12.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I"../h" -I"C:/Archivos de programa/Microchip/MPLAB C30/include" -I"C:/Documents and Settings/pgil/Mis documentos/Hezkuntza/DSP_18F/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_2/h" -I"C:/Documents and Settings/pgil/Mis documentos/Hezkuntza/DSP_18F/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_2/inc" -I"." -MMD -MF "${OBJECTDIR}/_ext/592891521/rs232_params_Q3_12.o.d" -o ${OBJECTDIR}/_ext/592891521/rs232_params_Q3_12.o D:/D/GARRANTZITSUENA/ESKOLAK/MASTER_EP/PRÁCTICAS/FLY-BACK/FBDig/Fb_dig_soft/DCDC_PTAIL_PC_18F2450_DSP/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_3/inc/rs232_params_Q3_12.c    
+	
+${OBJECTDIR}/_ext/592891521/init_Q3_12.o: D:/D/GARRANTZITSUENA/ESKOLAK/MASTER_EP/PRÁCTICAS/FLY-BACK/FBDig/Fb_dig_soft/DCDC_PTAIL_PC_18F2450_DSP/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_3/inc/init_Q3_12.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/592891521" 
+	@${RM} ${OBJECTDIR}/_ext/592891521/init_Q3_12.o.d 
+	@${RM} ${OBJECTDIR}/_ext/592891521/init_Q3_12.o.ok ${OBJECTDIR}/_ext/592891521/init_Q3_12.o.err 
+	@${RM} ${OBJECTDIR}/_ext/592891521/init_Q3_12.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/592891521/init_Q3_12.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -omf=elf -x c -c -mcpu=$(MP_PROCESSOR_OPTION) -Wall -I"../h" -I"C:/Archivos de programa/Microchip/MPLAB C30/include" -I"C:/Documents and Settings/pgil/Mis documentos/Hezkuntza/DSP_18F/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_2/h" -I"C:/Documents and Settings/pgil/Mis documentos/Hezkuntza/DSP_18F/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_2/inc" -I"." -MMD -MF "${OBJECTDIR}/_ext/592891521/init_Q3_12.o.d" -o ${OBJECTDIR}/_ext/592891521/init_Q3_12.o D:/D/GARRANTZITSUENA/ESKOLAK/MASTER_EP/PRÁCTICAS/FLY-BACK/FBDig/Fb_dig_soft/DCDC_PTAIL_PC_18F2450_DSP/DSP33FJ/BUCK2_16BIT_28_PIN_TIPO_II_3/inc/init_Q3_12.c    
 	
 endif
 

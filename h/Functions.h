@@ -20,3 +20,4 @@ void Delay_ms(unsigned int);
 void PIDInitBuck2(tPID *);
 void Buck2RefVoltValPotIntr(void);
 void InitUART1(void);
+
