@@ -1,0 +1,445 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+BART_0::2.0	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	66;"	d	line:66
+BLCK_0::0.42	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	74;"	d	line:74
+BLCK_1::-0.50	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	75;"	d	line:75
+BLCK_2::0.08	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	76;"	d	line:76
+BUCK2_SOFTSTART_INCREMENT::0xF8	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\init.c	131;"	d	line:131	file:
+BartlettInit	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	438;"	p	line:438	signature:( int numElems, fractional* window )
+BitReverseComplex	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1240;"	p	line:1240	signature:( int log2N, fractcomplex* srcCV )
+BitReverseReal32bIP	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1377;"	p	line:1377	signature:( int N, long *ipBuff )
+BlackmanInit	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	449;"	p	line:449	signature:( int numElems, fractional* window )
+BoostDrive	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\Functions.h	11;"	p	line:11	signature:(void)
+BoostSoftStartRoutine	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\Functions.h	18;"	p	line:18	signature:(void)
+BoostVoltageLoop	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\Functions.h	15;"	p	line:15	signature:(void)
+Buck1Drive	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\Functions.h	9;"	p	line:9	signature:(void)
+Buck1SoftStartRoutine	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\Functions.h	16;"	p	line:16	signature:(void)
+Buck1VoltageLoop	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\Functions.h	13;"	p	line:13	signature:(void)
+Buck2Drive	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\Functions.h	10;"	p	line:10	signature:(void)
+Buck2Drive	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\init.c	139;"	f	line:139	signature:(void)
+Buck2RefVoltValInit	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\Functions.h	21;"	p	line:21	signature:(void)
+Buck2RefVoltValInit	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\init.c	272;"	f	line:272	signature:(void)
+Buck2ReferenceNew	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\init.c	137;"	v	line:137
+Buck2ReferenceOld	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\init.c	137;"	v	line:137
+Buck2ReferenceRoutine	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\Functions.h	17;"	p	line:17	signature:(void)
+Buck2ReferenceRoutine	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\init.c	248;"	f	line:248	signature:(void)
+Buck2VoltageABC	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\init.c	89;"	v	line:89
+Buck2VoltageHistory	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\init.c	91;"	v	line:91
+Buck2VoltageLoop	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\Functions.h	14;"	p	line:14	signature:(void)
+Buck2VoltageLoop	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\init.c	216;"	f	line:216	signature:(void)
+BuckVoltagePID	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\init.c	45;"	v	line:45
+BusyUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	194;"	p	line:194	signature:(void)
+BusyUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	405;"	p	line:405	signature:(void)
+BusyUART2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	225;"	p	line:225	signature:(void)
+BusyUART2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	436;"	p	line:436	signature:(void)
+BusyUART3	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	258;"	p	line:258	signature:(void)
+BusyUART4	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	291;"	p	line:291	signature:(void)
+COEFFS_IN_DATA::0xFF00	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	78;"	d	line:78
+CloseUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	181;"	p	line:181	signature:(void)
+CloseUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	392;"	p	line:392	signature:(void)
+CloseUART2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	212;"	p	line:212	signature:(void)
+CloseUART2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	423;"	p	line:423	signature:(void)
+CloseUART3	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	245;"	p	line:245	signature:(void)
+CloseUART4	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	278;"	p	line:278	signature:(void)
+ConfigIntUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	183;"	p	line:183	signature:(unsigned int config)
+ConfigIntUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	394;"	p	line:394	signature:(unsigned int config)
+ConfigIntUART2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	214;"	p	line:214	signature:(unsigned int config)
+ConfigIntUART2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	425;"	p	line:425	signature:(unsigned int config)
+ConfigIntUART3	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	247;"	p	line:247	signature:(unsigned int config)
+ConfigIntUART4	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	280;"	p	line:280	signature:(unsigned int config)
+CosFactorInit	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1469;"	p	line:1469	signature:( int log2N, fractcomplex* cosFactors )
+CurrentVoltageMeasurements	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\Functions.h	12;"	p	line:12	signature:(void)
+CurrentVoltageMeasurements	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\init.c	180;"	f	line:180	signature:(void)
+DATA_TYPE::FRACTIONAL	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	50;"	d	line:50
+DCT	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1486;"	p	line:1486	signature:( int log2N, fractional* dstV, fractional* srcV, fractcomplex* cosFactors, fractcomplex* twidFactors, int factPage )
+DCTIP	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1535;"	p	line:1535	signature:( int log2N, fractional* srcV, fractcomplex* cosFactors, fractcomplex* twidFactors, int factPage )
+DataRdyUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	185;"	p	line:185	signature:(void)
+DataRdyUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	396;"	p	line:396	signature:(void)
+DataRdyUART2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	216;"	p	line:216	signature:(void)
+DataRdyUART2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	427;"	p	line:427	signature:(void)
+DataRdyUART3	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	249;"	p	line:249	signature:(void)
+DataRdyUART4	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	282;"	p	line:282	signature:(void)
+Delay_ms	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\Functions.h	19;"	p	line:19	signature:(unsigned int)
+Delay_ms	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\init.c	284;"	f	line:284	signature:(unsigned int delay)
+DisableIntU1RX::_U1RXIE=0	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	170;"	d	line:170
+DisableIntU1RX::_U1RXIE=0	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	381;"	d	line:381
+DisableIntU1TX::_U1TXIE=0	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	171;"	d	line:171
+DisableIntU1TX::_U1TXIE=0	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	382;"	d	line:382
+DisableIntU2RX::_U2RXIE=0	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	202;"	d	line:202
+DisableIntU2RX::_U2RXIE=0	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	413;"	d	line:413
+DisableIntU2TX::_U2TXIE=0	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	203;"	d	line:203
+DisableIntU2TX::_U2TXIE=0	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	414;"	d	line:414
+DisableIntU3RX::_U3RXIE=0	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	235;"	d	line:235
+DisableIntU3TX::_U3TXIE=0	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	236;"	d	line:236
+DisableIntU4RX::_U4RXIE=0	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	268;"	d	line:268
+DisableIntU4TX::_U4TXIE=0	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	269;"	d	line:269
+EnableIntU1RX::_U1RXIE=1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	167;"	d	line:167
+EnableIntU1RX::_U1RXIE=1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	378;"	d	line:378
+EnableIntU1TX::_U1TXIE=1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	168;"	d	line:168
+EnableIntU1TX::_U1TXIE=1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	379;"	d	line:379
+EnableIntU2RX::_U2RXIE=1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	199;"	d	line:199
+EnableIntU2RX::_U2RXIE=1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	410;"	d	line:410
+EnableIntU2TX::_U2TXIE=1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	200;"	d	line:200
+EnableIntU2TX::_U2TXIE=1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	411;"	d	line:411
+EnableIntU3RX::_U3RXIE=1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	232;"	d	line:232
+EnableIntU3TX::_U3TXIE=1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	233;"	d	line:233
+EnableIntU4RX::_U4RXIE=1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	265;"	d	line:265
+EnableIntU4TX::_U4TXIE=1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	266;"	d	line:266
+FB2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\init.c	120;"	v	line:120
+FFTComplex	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1251;"	p	line:1251	signature:( int log2N, fractcomplex* dstCV, fractcomplex* srcCV, fractcomplex* twidFactors, int factPage )
+FFTComplex32bIP	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1405;"	p	line:1405	signature:( int log2N, long *ipBuff, long *tfBuff, int factPage )
+FFTComplexIP	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1283;"	p	line:1283	signature:( int log2N, fractcomplex* srcCV, fractcomplex* twidFactors, int factPage )
+FFTReal32b	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1394;"	p	line:1394	signature:( int log2N, int N, long *opBuff, long *ipBuff, long *tfBuf, int factPage )
+FFTReal32bIP	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1384;"	p	line:1384	signature:( int log2N, int N, long *ipBuff, long *tfBuf, int factPage )
+FIR	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	844;"	p	line:844	signature:( int numSamps, fractional* dstSamps, fractional* srcSamps, FIRStruct* filter )
+FIRDecimate	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	862;"	p	line:862	signature:( int numSamps, fractional* dstSamps, fractional* srcSamps, FIRStruct* filter, int rate )
+FIRDelayInit	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	830;"	p	line:830	signature:( FIRStruct* filter )
+FIRInterpDelayInit	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	837;"	p	line:837	signature:( FIRStruct* filter, int rate )
+FIRInterpolate	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	881;"	p	line:881	signature:( int numSamps, fractional* dstSamps, fractional* srcSamps, FIRStruct* filter, int rate )
+FIRLMS	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	916;"	p	line:916	signature:( int numSamps, fractional* dstSamps, fractional* srcSamps, FIRStruct* filter, fractional* refSamps, fractional muVal )
+FIRLMSNorm	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	945;"	p	line:945	signature:( int numSamps, fractional* dstSamps, fractional* srcSamps, FIRStruct* filter, fractional* refSamps, fractional muVal, fractional* energyEstimate )
+FIRLattice	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	899;"	p	line:899	signature:( int numSamps, fractional* dstSamps, fractional* srcSamps, FIRStruct* filter )
+FIRStruct	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	792;"	t	line:792
+FIRStructInit	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	795;"	p	line:795	signature:( FIRStruct* FIRFilter, int numCoeffs, fractional* coeffsBase, int coeffsPage, fractional* delayBase )
+FLOATING::-1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	47;"	d	line:47
+FRACTIONAL::1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	48;"	d	line:48
+Float2Fract	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	130;"	p	line:130	signature:( float aVal )
+Float2Fract::(aVal)(aVal)	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	127;"	d	line:127
+Fract2Float	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	133;"	p	line:133	signature:( fractional aVal )
+Fract2Float::(aVal)(aVal)	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	128;"	d	line:128
+HAMM_0::0.53836	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	71;"	d	line:71
+HAMM_1::-0.46164	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	72;"	d	line:72
+HANN_0::0.50	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	68;"	d	line:68
+HANN_1::-0.50	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	69;"	d	line:69
+HammingInit	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	460;"	p	line:460	signature:( int numElems, fractional* window )
+HanningInit	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	471;"	p	line:471	signature:( int numElems, fractional* window )
+IFFTComplex	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1311;"	p	line:1311	signature:( int log2N, fractcomplex* dstCV, fractcomplex* srcCV, fractcomplex* twidFactors, int factPage )
+IFFTComplex32bIP	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1444;"	p	line:1444	signature:( int log2N, long *ipBuff, long *tfBuff, int factPage )
+IFFTComplexIP	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1340;"	p	line:1340	signature:( int log2N, fractcomplex* srcCV, fractcomplex* twidFactors, int factPage )
+IFFTReal32b	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1433;"	p	line:1433	signature:( int log2N, int N, long *opBuff, long *ipBuff, long *tfBuf, int factPage )
+IFFTReal32bIP	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1423;"	p	line:1423	signature:( int log2N, int N, long *ipBuff, long *tfBuf, int factPage )
+IIRCanonic	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1071;"	p	line:1071	signature:( int numSamps, fractional* dstSamps, fractional* srcSamps, IIRCanonicStruct* filter )
+IIRCanonicInit	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1083;"	p	line:1083	signature:( IIRCanonicStruct* filter )
+IIRCanonicStruct	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1069;"	t	line:1069
+IIRLattice	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1150;"	p	line:1150	signature:( int numSamps, fractional* dstSamps, fractional* srcSamps, IIRLatticeStruct* filter )
+IIRLatticeInit	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1161;"	p	line:1161	signature:( IIRLatticeStruct* filter )
+IIRLatticeStruct	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1148;"	t	line:1148
+IIRTransposed	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1114;"	p	line:1114	signature:( int numSamps, fractional* dstSamps, fractional* srcSamps, IIRTransposedStruct* filter )
+IIRTransposedInit	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1126;"	p	line:1126	signature:( IIRTransposedStruct* filter )
+IIRTransposedStruct	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1112;"	t	line:1112
+INPUTOVERVOLTAGE::839	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\main.c	46;"	d	line:46	file:
+INPUTUNDERVOLTAGE::391	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\main.c	44;"	d	line:44	file:
+INV_SQRT2::SIN_PI_Q	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	62;"	d	line:62
+InitUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\Functions.h	22;"	p	line:22	signature:(void)
+InitUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	176;"	p	line:176	signature:(void)
+InitUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\rs232.c	98;"	f	line:98
+InputVoltage	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\main.c	54;"	l	line:54
+KaiserInit	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	482;"	p	line:482	signature:( int numElems, fractional* window, float betaVal )
+MagnitudeCplx32bIP	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1462;"	p	line:1462	signature:( int N, long *ipBuff )
+MatrixAdd	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	647;"	p	line:647	signature:( int numRows, int numCols, fractional* dstM, fractional* srcM1, fractional* srcM2 )
+MatrixInvert	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	627;"	p	line:627	signature:( int numRowsCols, float* dstM, float* srcM, float* pivotFlag, int* swappedRows, int* swappedCols )
+MatrixMultiply	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	679;"	p	line:679	signature:( int numRows1, int numCols1Rows2, int numCols2, fractional* dstM, fractional* srcM1, fractional* srcM2 )
+MatrixScale	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	600;"	p	line:600	signature:( int numRows, int numCols, fractional* dstM, fractional* srcM, fractional sclVal )
+MatrixSubtract	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	663;"	p	line:663	signature:( int numRows, int numCols, fractional* dstM, fractional* srcM1, fractional* srcM2 )
+MatrixTranspose	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	614;"	p	line:614	signature:( int numRows, int numCols, fractional* dstM, fractional* srcM )
+NO_ORDEN	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\rs232.c	4;"	e	line:4	file:
+OFF_BUCK2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\rs232.c	6;"	e	line:6	file:
+ON_BUCK2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\rs232.c	5;"	e	line:5	file:
+OnOffFuente	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\rs232.c	12;"	v	line:12
+OpenUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	190;"	p	line:190	signature:(unsigned int config1,unsigned int config2, unsigned int ubrg)
+OpenUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	401;"	p	line:401	signature:(unsigned int config1,unsigned int config2, unsigned int ubrg)
+OpenUART2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	221;"	p	line:221	signature:(unsigned int config1,unsigned int config2, unsigned int ubrg)
+OpenUART2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	432;"	p	line:432	signature:(unsigned int config1,unsigned int config2, unsigned int ubrg)
+OpenUART3	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	254;"	p	line:254	signature:(unsigned int config1,unsigned int config2, unsigned int ubrg)
+OpenUART4	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	287;"	p	line:287	signature:(unsigned int config1,unsigned int config2, unsigned int ubrg)
+PI::3.1415926535897931159979634685	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	55;"	d	line:55
+PID	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1630;"	p	line:1630	signature:( tPID* controller )
+PIDBUCK2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1636;"	p	line:1636	signature:( tPID* controller )
+PIDCoeffCalc	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1610;"	p	line:1610	signature:( fractional* kCoeffs, tPID* controller )
+PIDInit	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1617;"	p	line:1617	signature:( tPID* controller )
+PIDInitBUCK2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1623;"	p	line:1623	signature:( tPID* controller )
+PIDInitBuck2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\Functions.h	20;"	p	line:20	signature:(tPID *)
+PID_BUCK2_A1::Q15(+0.084)	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\init.c	102;"	d	line:102	file:
+PID_BUCK2_A2::Q15(-0.084)	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\init.c	101;"	d	line:101	file:
+PID_BUCK2_B0::Q15(+0.899)	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\init.c	104;"	d	line:104	file:
+PID_BUCK2_B1::Q15(+0.1057)	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\init.c	105;"	d	line:105	file:
+PID_BUCK2_B2::Q15(-0.793)	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\init.c	106;"	d	line:106	file:
+PID_BUCK2_VOLTAGE_REFERENCE::0x4D20	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\init.c	119;"	d	line:119	file:
+PID_BUCK2_VOLTAGE_REF_MIN::0x7F2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\init.c	124;"	d	line:124	file:
+Q15::(X)	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	124;"	d	line:124
+REF_BUCK2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\rs232.c	7;"	e	line:7	file:
+ReadUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	192;"	p	line:192	signature:(void)
+ReadUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	403;"	p	line:403	signature:(void)
+ReadUART2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	223;"	p	line:223	signature:(void)
+ReadUART2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	434;"	p	line:434	signature:(void)
+ReadUART3	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	256;"	p	line:256	signature:(void)
+ReadUART4	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	289;"	p	line:289	signature:(void)
+SIN_PI_Q::0.7071067811865474617150084668	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	58;"	d	line:58
+SetPriorityIntU1RX::(priority)_U1RXIP=priority	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	173;"	d	line:173
+SetPriorityIntU1RX::(priority)_U1RXIP=priority	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	384;"	d	line:384
+SetPriorityIntU1TX::(priority)_U1TXIP=priority	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	174;"	d	line:174
+SetPriorityIntU1TX::(priority)_U1TXIP=priority	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	385;"	d	line:385
+SetPriorityIntU2RX::(priority)_U2RXIP=priority	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	205;"	d	line:205
+SetPriorityIntU2RX::(priority)_U2RXIP=priority	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	416;"	d	line:416
+SetPriorityIntU2TX::(priority)_U2TXIP=priority	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	206;"	d	line:206
+SetPriorityIntU2TX::(priority)_U2TXIP=priority	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	417;"	d	line:417
+SetPriorityIntU3RX::(priority)_U3RXIP=priority	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	238;"	d	line:238
+SetPriorityIntU3TX::(priority)_U3TXIP=priority	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	239;"	d	line:239
+SetPriorityIntU4RX::(priority)_U4RXIP=priority	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	271;"	d	line:271
+SetPriorityIntU4TX::(priority)_U4TXIP=priority	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	272;"	d	line:272
+SquareMagnitudeCplx	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1582;"	p	line:1582	signature:( int numelems, fractcomplex* srcV, fractional* dstV )
+TENSION_SALIDA_BUCK2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\rs232.c	8;"	e	line:8	file:
+TimerInterruptCount	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\isr.c	37;"	v	line:37
+TwidFactorInit	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1218;"	p	line:1218	signature:( int log2N, fractcomplex* twidFactors, int conjFlag )
+UART_1STOPBIT::0xFFFE	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	112;"	d	line:112
+UART_1STOPBIT::0xFFFE	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	330;"	d	line:330
+UART_2STOPBITS::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	111;"	d	line:111
+UART_2STOPBITS::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	329;"	d	line:329
+UART_ADR_DETECT_DIS::0xFFDF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	137;"	d	line:137
+UART_ADR_DETECT_DIS::0xFFDF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	348;"	d	line:348
+UART_ADR_DETECT_EN::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	136;"	d	line:136
+UART_ADR_DETECT_EN::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	347;"	d	line:347
+UART_ALTRX_ALTTX::0xFFE7	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	311;"	d	line:311
+UART_ALTRX_ALTTX::0xFFE7	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	79;"	d	line:79
+UART_BRGH_FOUR::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	103;"	d	line:103
+UART_BRGH_SIXTEEN::0xFFF7	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	104;"	d	line:104
+UART_DIS::0x7FE7	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	302;"	d	line:302
+UART_DIS::0x7FFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	69;"	d	line:69
+UART_DIS_ABAUD::0xFFDF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	322;"	d	line:322
+UART_DIS_ABAUD::0xFFDF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	98;"	d	line:98
+UART_DIS_LOOPBACK::0xFFBF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	319;"	d	line:319
+UART_DIS_LOOPBACK::0xFFBF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	95;"	d	line:95
+UART_DIS_WAKE::0xFF7F	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	316;"	d	line:316
+UART_DIS_WAKE::0xFF7F	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	92;"	d	line:92
+UART_EN::0xFFE7	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	301;"	d	line:301
+UART_EN::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	68;"	d	line:68
+UART_EN_ABAUD::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	321;"	d	line:321
+UART_EN_ABAUD::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	97;"	d	line:97
+UART_EN_LOOPBACK::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	318;"	d	line:318
+UART_EN_LOOPBACK::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	94;"	d	line:94
+UART_EN_WAKE::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	315;"	d	line:315
+UART_EN_WAKE::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	91;"	d	line:91
+UART_EVEN_PAR_8BIT::0xFFFB	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	108;"	d	line:108
+UART_EVEN_PAR_8BIT::0xFFFB	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	326;"	d	line:326
+UART_IDLE_CON::0xDFE7	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	304;"	d	line:304
+UART_IDLE_CON::0xDFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	71;"	d	line:71
+UART_IDLE_STOP::0xFFE7	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	305;"	d	line:305
+UART_IDLE_STOP::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	72;"	d	line:72
+UART_INT_RX_3_4_FUL::0xFFBF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	133;"	d	line:133
+UART_INT_RX_3_4_FUL::0xFFBF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	344;"	d	line:344
+UART_INT_RX_BUF_FUL::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	132;"	d	line:132
+UART_INT_RX_BUF_FUL::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	343;"	d	line:343
+UART_INT_RX_CHAR::0xFF7F	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	134;"	d	line:134
+UART_INT_RX_CHAR::0xFF7F	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	345;"	d	line:345
+UART_INT_TX::0x5FFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	118;"	d	line:118
+UART_INT_TX::0x7FFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	335;"	d	line:335
+UART_INT_TX_BUF_EMPTY::0xDFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	116;"	d	line:116
+UART_INT_TX_BUF_EMPTY::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	334;"	d	line:334
+UART_INT_TX_LAST_CH::0x7FFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	117;"	d	line:117
+UART_IrDA_DISABLE::0xEFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	75;"	d	line:75
+UART_IrDA_ENABLE::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	74;"	d	line:74
+UART_IrDA_POL_INV_ONE::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	120;"	d	line:120
+UART_IrDA_POL_INV_ZERO::0xBFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	121;"	d	line:121
+UART_MODE_FLOW::0xF7FF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	84;"	d	line:84
+UART_MODE_SIMPLEX::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	83;"	d	line:83
+UART_NO_PAR_8BIT::0xFFF9	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	109;"	d	line:109
+UART_NO_PAR_8BIT::0xFFF9	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	327;"	d	line:327
+UART_NO_PAR_9BIT::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	106;"	d	line:106
+UART_NO_PAR_9BIT::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	324;"	d	line:324
+UART_ODD_PAR_8BIT::0xFFFD	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	107;"	d	line:107
+UART_ODD_PAR_8BIT::0xFFFD	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	325;"	d	line:325
+UART_RX_INT_DIS::0xFFF7	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	143;"	d	line:143
+UART_RX_INT_DIS::0xFFF7	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	354;"	d	line:354
+UART_RX_INT_EN::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	142;"	d	line:142
+UART_RX_INT_EN::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	353;"	d	line:353
+UART_RX_INT_PR0::0xFFF8	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	145;"	d	line:145
+UART_RX_INT_PR0::0xFFF8	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	356;"	d	line:356
+UART_RX_INT_PR1::0xFFF9	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	146;"	d	line:146
+UART_RX_INT_PR1::0xFFF9	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	357;"	d	line:357
+UART_RX_INT_PR2::0xFFFA	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	147;"	d	line:147
+UART_RX_INT_PR2::0xFFFA	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	358;"	d	line:358
+UART_RX_INT_PR3::0xFFFB	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	148;"	d	line:148
+UART_RX_INT_PR3::0xFFFB	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	359;"	d	line:359
+UART_RX_INT_PR4::0xFFFC	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	149;"	d	line:149
+UART_RX_INT_PR4::0xFFFC	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	360;"	d	line:360
+UART_RX_INT_PR5::0xFFFD	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	150;"	d	line:150
+UART_RX_INT_PR5::0xFFFD	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	361;"	d	line:361
+UART_RX_INT_PR6::0xFFFE	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	151;"	d	line:151
+UART_RX_INT_PR6::0xFFFE	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	362;"	d	line:362
+UART_RX_INT_PR7::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	152;"	d	line:152
+UART_RX_INT_PR7::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	363;"	d	line:363
+UART_RX_OVERRUN_CLEAR::0xFFFD	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	139;"	d	line:139
+UART_RX_OVERRUN_CLEAR::0xFFFD	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	350;"	d	line:350
+UART_RX_TX::0xFBE7	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	312;"	d	line:312
+UART_RX_TX::0xFBE7	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	80;"	d	line:80
+UART_SYNC_BREAK_DISABLED::0xF7FF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	124;"	d	line:124
+UART_SYNC_BREAK_ENABLED::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	123;"	d	line:123
+UART_TX_BUF_FUL::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	129;"	d	line:129
+UART_TX_BUF_NOT_FUL::0xFDFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	130;"	d	line:130
+UART_TX_DISABLE::0xFBFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	127;"	d	line:127
+UART_TX_DISABLE::0xFBFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	341;"	d	line:341
+UART_TX_ENABLE::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	126;"	d	line:126
+UART_TX_ENABLE::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	340;"	d	line:340
+UART_TX_INT_DIS::0xFF7F	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	155;"	d	line:155
+UART_TX_INT_DIS::0xFF7F	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	366;"	d	line:366
+UART_TX_INT_EN::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	154;"	d	line:154
+UART_TX_INT_EN::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	365;"	d	line:365
+UART_TX_INT_PR0::0xFF8F	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	157;"	d	line:157
+UART_TX_INT_PR0::0xFF8F	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	368;"	d	line:368
+UART_TX_INT_PR1::0xFF9F	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	158;"	d	line:158
+UART_TX_INT_PR1::0xFF9F	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	369;"	d	line:369
+UART_TX_INT_PR2::0xFFAF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	159;"	d	line:159
+UART_TX_INT_PR2::0xFFAF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	370;"	d	line:370
+UART_TX_INT_PR3::0xFFBF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	160;"	d	line:160
+UART_TX_INT_PR3::0xFFBF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	371;"	d	line:371
+UART_TX_INT_PR4::0xFFCF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	161;"	d	line:161
+UART_TX_INT_PR4::0xFFCF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	372;"	d	line:372
+UART_TX_INT_PR5::0xFFDF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	162;"	d	line:162
+UART_TX_INT_PR5::0xFFDF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	373;"	d	line:373
+UART_TX_INT_PR6::0xFFEF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	163;"	d	line:163
+UART_TX_INT_PR6::0xFFEF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	374;"	d	line:374
+UART_TX_INT_PR7::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	164;"	d	line:164
+UART_TX_INT_PR7::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	375;"	d	line:375
+UART_TX_PIN_LOW::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	338;"	d	line:338
+UART_TX_PIN_NORMAL::0xF7FF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	337;"	d	line:337
+UART_UEN_00::0xFCFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	89;"	d	line:89
+UART_UEN_01::0xFDFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	88;"	d	line:88
+UART_UEN_10::0xFEFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	87;"	d	line:87
+UART_UEN_11::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	86;"	d	line:86
+UART_UXRX_IDLE_ONE::0xFFEF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	101;"	d	line:101
+UART_UXRX_IDLE_ZERO::0xFFFF	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	100;"	d	line:100
+UxBRG_VALUE::0x0000	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	27;"	d	line:27
+UxMODE_VALUE::0x0000	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	23;"	d	line:23
+UxRXREG_VALUE::0x0000	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	26;"	d	line:26
+UxSTA_VALUE::0x0110	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	24;"	d	line:24
+UxTXREG_VALUE::0x0000	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	25;"	d	line:25
+VectorAdd	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	301;"	p	line:301	signature:( int numElems, fractional* dstV, fractional* srcV1, fractional* srcV2 )
+VectorConvolve	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	370;"	p	line:370	signature:( int numElems1, int numElems2, fractional* dstV, fractional* srcV1, fractional* srcV2 )
+VectorCopy	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	245;"	p	line:245	signature:( int numElems, fractional* dstV, fractional* srcV )
+VectorCorrelate	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	385;"	p	line:385	signature:( int numElems1, int numElems2, fractional* dstV, fractional* srcV1, fractional* srcV2 )
+VectorDotProduct	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	346;"	p	line:346	signature:( int numElems, fractional* srcV1, fractional* srcV2 )
+VectorMax	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	219;"	p	line:219	signature:( int numElems, fractional* srcV, int* maxIndex )
+VectorMin	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	232;"	p	line:232	signature:( int numElems, fractional* srcV, int* minIndex )
+VectorMultiply	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	331;"	p	line:331	signature:( int numElems, fractional* dstV, fractional* srcV1, fractional* srcV2 )
+VectorNegate	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	276;"	p	line:276	signature:( int numElems, fractional* dstV, fractional* srcV )
+VectorPower	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	359;"	p	line:359	signature:( int numElems, fractional* srcV )
+VectorScale	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	288;"	p	line:288	signature:( int numElems, fractional* dstV, fractional* srcV, fractional sclVal )
+VectorSubtract	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	316;"	p	line:316	signature:( int numElems, fractional* dstV, fractional* srcV1, fractional* srcV2 )
+VectorWindow	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	494;"	p	line:494	signature:( int numElems, fractional* dstV, fractional* srcV, fractional* window )
+VectorZeroPad	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	260;"	p	line:260	signature:( int numElems, int numZeros, fractional* dstV, fractional* srcV )
+WriteUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	179;"	p	line:179	signature:(unsigned int data)
+WriteUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	390;"	p	line:390	signature:(unsigned int data)
+WriteUART2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	210;"	p	line:210	signature:(unsigned int data)
+WriteUART2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	421;"	p	line:421	signature:(unsigned int data)
+WriteUART3	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	243;"	p	line:243	signature:(unsigned int data)
+WriteUART4	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	276;"	p	line:276	signature:(unsigned int data)
+_CNInterrupt	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\isr.c	52;"	f	line:52
+_PIDBUCK2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	147;"	l	line:147
+_PIDInitBuck2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	84;"	l	line:84
+_T1Interrupt	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\isr.c	40;"	f	line:40
+_U1RXInterrupt	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\rs232.c	14;"	f	line:14	signature:(void)
+_U1TXInterrupt	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\rs232.c	94;"	f	line:94	signature:(void)
+_UART_V1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	60;"	d	line:60
+_UART_V2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	56;"	d	line:56
+__ADCP1Interrupt	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\isr_asm.s	63;"	l	line:63
+__DSP_LIB__	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	34;"	d	line:34
+__UART_H	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	18;"	d	line:18
+abcCoefficients	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1598;"	m	line:1598
+add	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	87;"	l	line:87
+clr	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	88;"	l	line:88
+clr	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	92;"	l	line:92
+clr	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	93;"	l	line:93
+clr	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	94;"	l	line:94
+clr	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	95;"	l	line:95
+clr	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	96;"	l	line:96
+coeffsBase	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1050;"	m	line:1050
+coeffsBase	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1092;"	m	line:1092
+coeffsBase	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	758;"	m	line:758
+coeffsEnd	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	770;"	m	line:770
+coeffsPage	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1055;"	m	line:1055
+coeffsPage	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1097;"	m	line:1097
+coeffsPage	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1142;"	m	line:1142
+coeffsPage	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	777;"	m	line:777
+cont_RX_bits	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\rs232.c	11;"	v	line:11
+cont_TX_bits	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\rs232.c	11;"	v	line:11
+controlHistory	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1601;"	m	line:1601
+controlOutput	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1603;"	m	line:1603
+controlReference	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1605;"	m	line:1605
+delay	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1145;"	m	line:1145
+delay	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	791;"	m	line:791
+delayBase	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1058;"	m	line:1058
+delayBase	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	782;"	m	line:782
+delayBase1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1100;"	m	line:1100
+delayBase2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1103;"	m	line:1103
+delayEnd	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	789;"	m	line:789
+finalShift	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1062;"	m	line:1062
+finalShift	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1106;"	m	line:1106
+fractcomplex	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	99;"	t	line:99
+fractional	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	90;"	t	line:90
+fractional	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	92;"	t	line:92
+gammaVals	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1138;"	m	line:1138
+getcUART1::ReadUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	29;"	d	line:29
+getcUART2::ReadUART2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	34;"	d	line:34
+getcUART3::ReadUART3	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	41;"	d	line:41
+getcUART4::ReadUART4	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	48;"	d	line:48
+getsUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	187;"	p	line:187	signature:(unsigned int length,unsigned int *buffer, unsigned int uart_data_wait)
+getsUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	398;"	p	line:398	signature:(unsigned int length,unsigned int *buffer, unsigned int uart_data_wait)
+getsUART2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	218;"	p	line:218	signature:(unsigned int length,unsigned int *buffer, unsigned int uart_data_wait)
+getsUART2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	429;"	p	line:429	signature:(unsigned int length,unsigned int *buffer, unsigned int uart_data_wait)
+getsUART3	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	251;"	p	line:251	signature:(unsigned int length,unsigned int *buffer, unsigned int uart_data_wait)
+getsUART4	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	284;"	p	line:284	signature:(unsigned int length,unsigned int *buffer, unsigned int uart_data_wait)
+imag	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	98;"	m	line:98
+initialGain	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1061;"	m	line:1061
+kappaVals	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1135;"	m	line:1135
+limpiarRevReg	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\rs232.c	17;"	l	line:17
+main	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\main.c	52;"	f	line:52	signature:(void)
+measuredOutput	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1604;"	m	line:1604
+mov	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	235;"	l	line:235
+mov	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	236;"	l	line:236
+mov	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	237;"	l	line:237
+mov	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	238;"	l	line:238
+mov	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	91;"	l	line:91
+numCoeffs	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	754;"	m	line:754
+numSectionsLess1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1048;"	m	line:1048
+numSectionsLess1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1090;"	m	line:1090
+ordenUSB	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\rs232.c	9;"	v	line:9
+order	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1133;"	m	line:1133
+outputVoltage	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\rs232.c	11;"	v	line:11
+outputVoltage2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\isr.c	55;"	l	line:55
+outputVoltageH	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\rs232.c	12;"	v	line:12
+outputVoltageH2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\isr.c	56;"	l	line:56
+outputVoltageL	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\rs232.c	17;"	l	line:17
+outputVoltageL2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\isr.c	56;"	l	line:56
+pop	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	240;"	l	line:240
+pop	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	241;"	l	line:241
+pop	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	242;"	l	line:242
+pop	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	243;"	l	line:243
+pop	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	244;"	l	line:244
+pop	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	89;"	l	line:89
+pop	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	98;"	l	line:98
+push	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	86;"	l	line:86
+push	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	90;"	l	line:90
+putcUART1::WriteUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	30;"	d	line:30
+putcUART2::WriteUART2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	35;"	d	line:35
+putcUART3::WriteUART3	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	42;"	d	line:42
+putcUART4::WriteUART4	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	49;"	d	line:49
+putsUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	177;"	p	line:177	signature:(unsigned int *buffer)
+putsUART1	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	388;"	p	line:388	signature:(unsigned int *buffer)
+putsUART2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	208;"	p	line:208	signature:(unsigned int *buffer)
+putsUART2	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	419;"	p	line:419	signature:(unsigned int *buffer)
+putsUART3	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	241;"	p	line:241	signature:(unsigned int *buffer)
+putsUART4	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\uart.h	274;"	p	line:274	signature:(unsigned int *buffer)
+real	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	97;"	m	line:97
+realFft32bIP	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1414;"	p	line:1414	signature:( int log2N, long *ipBuff, long *tfBuff, int factPage )
+realiFft32bIP	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1453;"	p	line:1453	signature:( int log2N, long *ipBuff, long *tfBuff, int factPage )
+referenciaVoltageL	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\rs232.c	11;"	v	line:11
+return	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	246;"	l	line:246
+return	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\src\pid_TIPO_II.s	99;"	l	line:99
+tPID	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1606;"	t	line:1606
+toneGen32b	C:\Documents and Settings\pgil\Mis documentos\Hezkuntza\DSP_18F\DSP33FJ\BUCK2_16BIT_28_PIN_TIPO_II_3\h\dsp.h	1368;"	p	line:1368	signature:( int samp, int tone, int phase, long *tfBuff )
